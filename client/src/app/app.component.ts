@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
 	title = 'Dojo Weather Forecast';
 
 	ngOnInit() {
-		this._route.params.subscribe((params: Params) => console.log(params['id']));
+		this._route.params.subscribe();
 	}
 	goHome() {
 		this._router.navigate(['/home']);

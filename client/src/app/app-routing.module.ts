@@ -9,6 +9,7 @@ import { DcComponent } from './dc/dc.component'
 import { ChicagoComponent } from './chicago/chicago.component'
 
 const routes: Routes = [
+	{path: '', component: SeattleComponent},
 	{path: 'seattle', component: SeattleComponent},
 	{path: 'sanjose', component: SanjoseComponent},
 	{path: 'burbank', component: BurbankComponent},
