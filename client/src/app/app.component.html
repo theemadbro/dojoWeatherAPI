@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <div class="header" style="text-align:center">
+        <h1>{{ title }}!</h1>
+        <p>
+            <a href="/seattle" [routerLink]="['/seattle']">Seattle, WA</a>
+            <span> | </span>
+            <a href="/sanjose" [routerLink]="['/sanjose']">San Jose, CA</a>
+            <span> | </span>
+            <a href="/burbank" [routerLink]="['/burbank']">Burbank, CA</a>
+            <span> | </span>
+            <a href="/dallas" [routerLink]="['/dallas']">Dallas, TX</a>
+            <span> | </span>
+            <a href="/dc" [routerLink]="['/dc']">Washington D.C.</a>
+            <span> | </span>
+            <a href="/chicago" [routerLink]="['/chicago']">Chicago, IL</a>
+        </p>
+    </div>
+    <router-outlet></router-outlet>
+</div>

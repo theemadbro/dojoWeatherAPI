@@ -1,0 +1,12 @@
+#header {
+	text-align: center
+}
+.left {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.right {
+	width: 50%;
+	display: inline-block;
+}
